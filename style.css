@@ -11,7 +11,7 @@
   --btn-cont-bg: #3882F6;
   
   --mtext-font-size: 48px;
-  --stext-font-size: 18px;
+  --stext-font-size: 16px;
   --navh-font-size: 24px;
   --qtext-font-size: 36px;
 }
@@ -40,6 +40,7 @@ section, footer {
 }
 
 nav {
+  margin-top: 1%;
   position: absolute;
   top: 0;
   width: 80%;
@@ -126,4 +127,56 @@ img[src="szn.jpg"] {
   height: 60px;
   width: 60px;
   border-radius: 5px;
+}
+
+.quote {
+  flex-direction: column;
+  background: var(--secondary-text);
+  color: var(--footer-sec-bg);
+}
+
+.quote p:first-of-type {
+  font-size: var(--qtext-font-size);
+  font-style: italic;
+}
+
+.quote p:nth-child(2){
+  width: 100%;
+  text-align: right;
+  font-weight: bolder;
+}
+
+.pop-up {
+  background: var(--main-text);
+}
+
+.blue {
+  width: 90%;
+  background: var(--btn-cont-bg);
+  padding: 5%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.blue p {
+  font-weight: bolder;
+  color: var(--main-text);
+}
+
+.blue span {
+  font-weight: normal;
+  color: var(--secondary-text);
+  font-size: 15px;
+  display: block;
+}
+
+.blue button {
+  border: 1px solid var(--main-text);
+}
+
+footer {
+  background: var(--footer-sec-bg);
+  color: var(--main-text);
 }
