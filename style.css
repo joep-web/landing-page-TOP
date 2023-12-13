@@ -84,9 +84,11 @@ button {
   padding: 5px;
   background: var(--btn-cont-bg);
   color: var(--main-text);
+  width: 35%;
+  max-width: 70px;
 }
 
-img[src="tl.jpg"]{
+img[src="pics/tl.jpg"]{
   height: 80px;
 }
 
@@ -106,7 +108,7 @@ img[src="tl.jpg"]{
 figure {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  aligntems: center;
 }
 
 .szn figcaption {
@@ -123,7 +125,7 @@ figure {
 }
 
 
-img[src="szn.jpg"] {
+img[src="pics/sleep.jpeg"] {
   height: 60px;
   width: 60px;
   border-radius: 5px;
@@ -174,6 +176,7 @@ img[src="szn.jpg"] {
 
 .blue button {
   border: 1px solid var(--main-text);
+  width: 25%;
 }
 
 footer {
